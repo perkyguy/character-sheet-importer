@@ -11,3 +11,6 @@ When building you will get the following warning (among others):
 Warning		The $(TargetFrameworkVersion) for CharacterSheet.UI.dll (v6.0) is greater than the $(TargetFrameworkVersion) for your project (v5.1). You need to increase the $(TargetFrameworkVersion) for your project."
 
 The reason the project targeting v5.1 is because permissions for things such as storage/network access are asked for upon install.  If the target framework is updated, then prompts to grant permission for features as and when they are first used will need to be implemented.
+
+
+Test PR
